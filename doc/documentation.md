@@ -1,6 +1,7 @@
 # Mollusk documentation
 
-Table of contents: 
+## Table of contents: 
+- [Table of contents:](#table-of-contents)
 - [Standard functions](#standard-functions)
   - [Functions of basic movement](#functions-of-basic-movement)
     - [mollusk.forward()](#molluskforward)
@@ -34,7 +35,7 @@ Moves the turtle forward by `distance` blocks. Can handle negative numbers (it w
 ```
 mollusk.left([distance])
 ```
-Moves the turtle left by `distance` blocks, keeping the starting direction. (turtle turns left, moves `distance` blocks forward, and turns right afterwards). Can handle negative numbers (it will work like moving opposite direction, turtle turns left, moves `distance` blocks back, and turns right afterwards).
+Moves the turtle left by `distance` blocks, keeping the starting direction (turtle turns left, moves `distance` blocks forward, and turns right afterwards). Can handle negative numbers (it will work like moving opposite direction, turtle turns left, moves `distance` blocks back, and turns right afterwards).
 ##### Parameters
 1. distance=1 : number The number of blocks to move.
 ##### Returns
@@ -46,7 +47,7 @@ Moves the turtle left by `distance` blocks, keeping the starting direction. (tur
 ```
 mollusk.right([distance])
 ```
-Moves the turtle right by `distance` blocks, keeping the starting direction. (turtle turns right, moves `distance` blocks forward, and turns left afterwards). Can handle negative numbers (it will work like moving opposite direction, turtle turns right, moves `distance` blocks back, and turns left afterwards).
+Moves the turtle right by `distance` blocks, keeping the starting direction (turtle turns right, moves `distance` blocks forward, and turns left afterwards). Can handle negative numbers (it will work like moving opposite direction, turtle turns right, moves `distance` blocks back, and turns left afterwards).
 ##### Parameters
 1. distance=1 : number The number of blocks to move.
 ##### Returns
