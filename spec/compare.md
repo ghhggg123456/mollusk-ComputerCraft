@@ -3,7 +3,7 @@
 mollusk.compare([argument...])
 ```
 Cursed function. Compare the block in front of turtle with the `argument`. `argument` can be number of slot or string id of block. 
-If function is a number, it use standard turtle operation `compare()` (check if the block in front of the turtle is equal to the item in the currently selected slot).
+If argument is a number, it use standard turtle operation `compare()` (check if the block in front of the turtle is equal to the item in the currently selected slot).
 If function is a  string, it check if the `argument` is equal id of block in that direction.
 ##### Parameters
 1. argument...=1 : number | string The argument for comporasion

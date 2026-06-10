@@ -12,8 +12,6 @@ Attacks forward `repeat` times, returning to the starting position afterwards. I
 2. string | nil The reason for stopping or nil if successful
 3. number The number of attacks actually performed (equals `repeat` if successful in safety mode)
 
----
-
 #### attackLeft()
 ```
 mollusk.attackLeft([repeat [, mode [, pause]]])
@@ -27,8 +25,6 @@ Attacks to the left `repeat` times, returning to the starting position and direc
 1. boolean Whether the attack sequence completed successfully (always true in safety mode)
 2. string | nil The reason for stopping or nil if successful
 3. number The number of attacks actually performed (equals `repeat` if successful in safety mode)
-
----
 
 #### attackRight()
 ```
@@ -44,8 +40,6 @@ Attacks to the right `repeat` times, returning to the starting position and dire
 2. string | nil The reason for stopping or nil if successful
 3. number The number of attacks actually performed (equals `repeat` if successful in safety mode)
 
----
-
 #### attackBack()
 ```
 mollusk.attackBack([repeat [, mode [, pause]]])
@@ -60,8 +54,6 @@ Attacks behind the turtle `repeat` times, returning to the starting position aft
 2. string | nil The reason for stopping or nil if successful
 3. number The number of attacks actually performed (equals `repeat` if successful in safety mode)
 
----
-
 #### attackUp()
 ```
 mollusk.attackUp([repeat [, mode [, pause]]])
@@ -75,8 +67,6 @@ Attacks above the turtle `repeat` times, returning to the starting position afte
 1. boolean Whether the attack sequence completed successfully (always true in safety mode)
 2. string | nil The reason for stopping or nil if successful
 3. number The number of attacks actually performed (equals `repeat` if successful in safety mode)
-
----
 
 #### attackDown()
 ```

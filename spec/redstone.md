@@ -1,7 +1,3 @@
-Вот спецификация для redstone функций:
-
----
-
 #### setRedstone()
 ```
 mollusk.setRedstone([value])
@@ -136,7 +132,3 @@ Gets the redstone signal strength on the bottom side.
 ##### Returns
 1. boolean Whether the operation completed successfully
 2. number The signal strength (0-15)
-
----
-
-Готово. 🫡

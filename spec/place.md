@@ -5,7 +5,7 @@ mollusk.place([distance [, mode]])
 Places a block forward `distance` times, returning to the starting position afterwards. If the function fails before completing, the turtle will still attempt to return to its original position.
 ##### Parameters
 1. distance=1 : number The number of blocks to place
-2. mode="strict" : string The placement mode. "strict" means if a block already exists where the turtle should place, the function stops and attempts to return. "safety" means if a block already exists, the turtle ignores it, moves forward anyway (stopping when blocked), and continues placing in available spaces.
+2. mode="safety" : string The placement mode. "strict" means if a block already exists where the turtle should place, the function stops and attempts to return. "safety" means if a block already exists, the turtle ignores it, moves forward anyway (stopping when blocked), and continues placing in available spaces.
 ##### Returns
 1. boolean Whether the placement completed successfully.
 2. string | nil The reason for stopping or nil if successful.
@@ -58,7 +58,7 @@ mollusk.placeUp([distance [, mode]])
 Places blocks above the turtle `distance` times, returning to the starting position afterwards. If the function fails before completing, the turtle will still attempt to return to its original position.
 ##### Parameters
 1. distance=1 : number The number of blocks to place
-2. mode="strict" : string The placement mode. "strict" means if a block already exists where the turtle should place, the function stops and attempts to return. "safety" means if a block already exists, the turtle ignores it, moves forward anyway (stopping when blocked), and continues placing in available spaces.
+2. mode="safety" : string The placement mode. "strict" means if a block already exists where the turtle should place, the function stops and attempts to return. "safety" means if a block already exists, the turtle ignores it, moves forward anyway (stopping when blocked), and continues placing in available spaces.
 ##### Returns
 1. boolean Whether the placement completed successfully.
 2. string | nil The reason for stopping or nil if successful.
@@ -71,7 +71,7 @@ mollusk.placeDown([distance [, mode]])
 Places blocks below the turtle `distance` times, returning to the starting position afterwards. If the function fails before completing, the turtle will still attempt to return to its original position.
 ##### Parameters
 1. distance=1 : number The number of blocks to place
-2. mode="strict" : string The placement mode. "strict" means if a block already exists where the turtle should place, the function stops and attempts to return. "safety" means if a block already exists, the turtle ignores it, moves forward anyway (stopping when blocked), and continues placing in available spaces.
+2. mode="safety" : string The placement mode. "strict" means if a block already exists where the turtle should place, the function stops and attempts to return. "safety" means if a block already exists, the turtle ignores it, moves forward anyway (stopping when blocked), and continues placing in available spaces.
 ##### Returns
 1. boolean Whether the placement completed successfully.
 2. string | nil The reason for stopping or nil if successful.
