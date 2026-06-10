@@ -150,5 +150,3 @@ function turnRight(count)
     end
     return check, reason, count
 end
-
-

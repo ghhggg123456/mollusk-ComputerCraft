@@ -1,7 +1,3 @@
-Вот спецификация для `suck` и `drop`:
-
----
-
 #### suck()
 ```
 mollusk.suck([count [, pause]])
@@ -159,7 +155,3 @@ Drops items from the selected slot below the turtle. Can handle negative numbers
 1. boolean Whether the operation completed successfully (always true if at least one item was dropped)
 2. string | nil The reason for stopping or nil if successful
 3. number The number of blocks actually dropped
-
----
-
-Готово. 🫡
